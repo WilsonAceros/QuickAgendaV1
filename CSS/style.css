@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: white; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    /* width: 100%; */
+    /* height: 150px; */
+    background: #606166;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name{
+    text-align: center;
+    color: white;
+}
+
+.container2{
+    /* max-width: 1100px; */
+    height: 140px;
+    /* margin: auto; */
+    background-color:#5bbdeb;
+}
+
+#SeleccionMenu{
+    width: 210px;
+}
+
+.menu{
+    float: left;
+    padding: 10px;
+    /* altura del menu */
+    line-height: 30px;
+}
+
+.menu ul{
+    display: flex;
+    /* quita puntos de la lista */
+    list-style: none;
+}
+
+.menu a{
+    display: block;
+    padding: 0px 50px;
+    /* quita subrayado de la lista */
+    text-decoration: none;
+    color: black;
+    /* El cambio es mas suave */
+    transition: all 500ms ease;
+}
+
+.menu a:hover{
+    /* Cuando pasa el mouse cambia el fondo y el color de la letra */
+    background: #f0975b;
+    color: #fff;
+}
+
+.menu .submenu{
+    background: #5bbdeb;
+    /*oculta submenu */
+    display: none;
+}
+
+.menu .submenu li a{
+     /* altura del submenu */
+    line-height: 30px;
+}
+
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+
+.buttons{
+    float: right;
+    padding: 10px;
+}
+
+.buttons a{
+    text-decoration: none;
+    color:black;
+}
+
+#button1{
+    float: center;
+    line-height: 20px;
+    background: #f0975b;
+    padding: 0.5em;
+    border: 1px solid #f0975b;
+}
+
+#button2{
+    float: center;
+    line-height: 20px;
+    background: #f0975b;
+    padding: 0.5em;
+    border: 1px solid #f0975b;
+}
+
+.container3{
+    background-color: #f0975b;
+    display: flex;
+}
+
+.item{
+    margin: 1em;
+    padding: 1em;
+    color: black;
+}
+
+#item1{
+    background-color: #5bbdeb;
+
+    /* bordes */
+    border-color: white;
+    border-style: solid;
+
+    /* borde suave */
+    border-radius:  10px 104px 10px 10px;
+}
+
+#item2{
+    background-color: #5bbdeb;
+    /* bordes */
+    border-color: white;
+    border-style: solid;
+
+    /* borde suave */
+    border-radius:  10px 104px 10px 10px;
+}
+
+
+/* Registro html */
+.container4{
+    background-color: #f0975b;
+    padding: 1em;
+}
+
+.form1{
+    padding: 1em;
+    background-color:white;
+    float: center;
+
+}
+
+.item3{
+    background-color: #5bbdeb;
+    margin-top: 1em;
+}
+
+
+
+/* Pagina Barberías */
+
+.container5{
+    max-width: 1100px;
+    /* height: 200px; */
+    margin: auto;
+    background-color: #f0975b;
+}
+
+.item5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.item5 img {
+    width: 30vw;
+    height: 50vh;
+}
+
+.item6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+
