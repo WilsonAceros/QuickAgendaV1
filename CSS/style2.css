@@ -197,13 +197,14 @@ header{
 
 /* Registro html */
 .container4{
-    background-color: #f0975b;
-    padding: 1em;
+    /* background-color: #f0975b; */
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
 
 .form1{
-    padding: 1em;
-    background-color:white;
+    padding: 20px;
     float: center;
 
 }
@@ -213,6 +214,23 @@ header{
     margin-top: 1em;
 }
 
+.enviar{
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color:#f0975bc0;
+    transition: all 500ms ease;
+}
+
+.enviar:hover{
+    background-color:#5bbdeb;
+}
 
 .footer{
     background-color: white;

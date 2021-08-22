@@ -5,65 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick Agenda: Reservar citas online</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
 </head>
 <body>
 
-    <!-- Cabecera para colocar logo -->
-    <!-- Paginas con enlace index, barberias y sign up (Registro) -->
-    <div class="logo">
-        <img src="/images/2.png" alt="" width="100px" height="100px" id="logo"></img>
-        <h4 id="name">Quick Agenda</h4>
-    </div>
-    <!-- Divisiòn para desplegar el menu y los botones de registro -->
-    <div class="container2">
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-
-                <li>
-                    <a href="#" id="SeleccionMenu">Servicios</a>
-                    <!-- Esto es un submenu -->
-                    <ul class="submenu">
+    <header>
+        <!-- Divisiòn para desplegar el menu y los botones de registro -->
+            <div class="container2">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" width="100px" height="100px" id="logo"></img>
+                </div>
+                <nav class="menu">
+                    <ul>
                         <li>
-                            <a href="barberias.html">Barberías</a>
+                            <a href="index.html">Inicio</a>
                         </li>
 
                         <li>
-                            <a href="#">SPA</a>
+                            <a href="#" id="SeleccionMenu">Servicios</a>
+                            <!-- Esto es un submenu -->
+                            <ul class="submenu">
+                                <li>
+                                    <a href="barberias.html">Barberías</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">SPA</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">Restaurantes</a>
+                                </li>
+                            </ul>
                         </li>
 
                         <li>
-                            <a href="#">Restaurantes</a>
+                            <a href="registro.html">Registra tu Negocio</a>
+                        </li>
+
+                        <li>
+                            <a href="#final">Contacto</a>
                         </li>
                     </ul>
-                </li>
+                </nav>
+            </div>
 
-                <li>
-                    <a href="#">Reservar</a>
-                </li>
+            <div class="sesgoabajo"></div>
 
-                <li>
-                        <a href="#">Suscripción</a>
-                </li>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="white" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,282.7C384,277,480,267,576,234.7C672,203,768,149,864,160C960,171,1056,245,1152,250.7C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg> -->
 
-                <li>
-                    <a href="#final">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- Botones de registro -->
-        <div class="buttons">
-            <button type="button" id="button1"><a href="#">Sign in</a></button>
-            <!-- <br> -->
-            <button type="button" id="button2"><a href="registro.html">Sign up</a></button>
-        </div>
-    </div>
-
-    <br>
-    <hr>
+        </header>
 
     <div class="container4">
         <div class="form1">
@@ -106,7 +99,7 @@
                 <input type="file">
                 <br><br>
 
-                <input type="submit" id="Enviar Datos">
+                <a class="enviar">Enviar</a>
                 <br>
                 <label for="">Borrar</label>
                 <input type="reset">
@@ -119,18 +112,19 @@
         </div>
     </div>
 
-    <hr>
-    <br>
-
     <!-- Es el footer, correspondiente a los enlaces de las redes sociales y copyrights -->
-    <div align="center" class="footer">
-        <img src="/assets/fb.svg" alt="" width="30px" height="30px"></img>
-        <img src="/assets/instagram.svg" alt="" width="30px" height="30px"></img>
-        <img src="/assets/tw.svg" alt="" width="30px" height="30px"></img>
-        <img src="/assets/mail.svg" alt="" width="30px" height="30px"></img>
-        <p>Copyright 2021 | Quick Agenda | Todos los derechos reservados</p>
-    </div>
+    <footer>
+        <div align="center" class="footer">
+            <hr>
+            <br>
+            <img src="/assets/fb.svg" alt="" width="30px" height="30px"></img>
+            <img src="/assets/instagram.svg" alt="" width="30px" height="30px"></img>
+            <img src="/assets/tw.svg" alt="" width="30px" height="30px"></img>
+            <img src="/assets/mail.svg" alt="" width="30px" height="30px"></img>
+            <p>Copyright 2021 | Quick Agenda | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
     <span id="final"></span>
-    <!-- <script src="main.js"></script> -->
 </body>
 </html>

@@ -10,88 +10,98 @@
 <body>
     <!-- Cabecera para colocar logo -->
     <!-- Paginas con enlace index, barberias y sign up (Registro) -->
-    <div class="logo">
-        <img src="/images/2.png" alt="" width="100px" height="100px" id="logo"></img>
-        <h4 id="name">Quick Agenda</h4>
-    </div>
+    <header>
     <!-- Divisiòn para desplegar el menu y los botones de registro -->
-    <div class="container2">
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
+        <div class="container2">
+            <div class="logo">
+                <img src="images/logo.png" alt="" width="100px" height="100px" id="logo"></img>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
 
-                <li>
-                    <a href="#" id="SeleccionMenu">Servicios</a>
-                    <!-- Esto es un submenu -->
-                    <ul class="submenu">
-                        <li>
-                            <a href="barberias.html">Barberías</a>
-                        </li>
+                    <li>
+                        <a href="#" id="SeleccionMenu">Servicios</a>
+                        <!-- Esto es un submenu -->
+                        <ul class="submenu">
+                            <li>
+                                <a href="barberias.html">Barberías</a>
+                            </li>
 
-                        <li>
-                            <a href="#">SPA</a>
-                        </li>
+                            <li>
+                                <a href="#">SPA</a>
+                            </li>
 
-                        <li>
-                            <a href="#">Restaurantes</a>
-                        </li>
-                    </ul>
-                </li>
+                            <li>
+                                <a href="#">Restaurantes</a>
+                            </li>
+                        </ul>
+                    </li>
 
-                <li>
-                    <a href="#">Reservar</a>
-                </li>
+                    <li>
+                        <a href="registro.html">Registra tu Negocio</a>
+                    </li>
 
-                <li>
-                        <a href="#">Suscripción</a>
-                </li>
-
-                <li>
-                    <a href="#final">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- Botones de registro -->
-        <div class="buttons">
-            <button type="button" id="button1"><a href="#">Sign in</a></button>
-            <!-- <br> -->
-            <button type="button" id="button2"><a href="registro.html">Sign up</a></button>
+                    <li>
+                        <a href="#final">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </div>
 
-    <br>
-    <hr>
-    <!-- Seccion de novedades y noticias -->
-    <div class="container3">
-        <div class="item" id="item1">
-            <h1>NOTICIAS 1</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi voluptas nulla ad enim pariatur eligendi possimus sed officiis tempora? Voluptatum voluptas adipisci aut ducimus nemo culpa laborum quaerat vero quos?
-            Cumque consequatur expedita blanditiis quos excepturi, quam consectetur necessitatibus, tempore, dolore fugit accusantium. Recusandae voluptas omnis cum nisi, repellat vel consectetur dignissimos deserunt, quibusdam ea nobis modi est totam minima!
-            Nemo recusandae in, iusto expedita nobis neque deleniti blanditiis labore delectus corporis exercitationem alias. Molestias, ea? Ipsum ex officia labore adipisci! Nam perferendis natus quod magnam praesentium aperiam corrupti sunt.
-            Nostrum voluptates saepe ipsa velit! Laborum deleniti quis quo adipisci fugiat vitae et laudantium totam veritatis vero, cum eum doloribus excepturi sunt harum nihil autem dolores inventore pariatur reprehenderit unde.
-            Hic beatae, cum excepturi id expedita voluptatibus nam. Iusto, quam. Laborum, hic rem. At amet ipsa modi provident tempora labore iure ea, cumque exercitationem nobis quasi autem corrupti quae adipisci!</p>
-        </div>
-        <div class="item" id="item2">
-            <h1>NOTICIAS 2</h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, repudiandae expedita! Ab dolorem veritatis fugiat numquam, quibusdam dignissimos molestias aliquam fuga pariatur id quisquam beatae quae a odit culpa nisi.
-            Voluptatem dicta quas, quod reiciendis voluptas amet? Eius laborum nisi accusantium harum pariatur provident necessitatibus earum vel maxime rem beatae itaque eveniet labore fuga tempora totam, laboriosam animi nam delectus.
-            Aliquid nemo maiores similique eveniet dolorem earum! Accusantium, ad? Dolores, quia asperiores! Et, quae nulla? Sapiente, adipisci officia? Maxime voluptate nisi error blanditiis dicta perspiciatis, natus nam. Omnis, hic minima.</p>
-        </div>
-    </div>
+        <div class="sesgoabajo"></div>
 
-    <hr>
-    <br>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="white" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,282.7C384,277,480,267,576,234.7C672,203,768,149,864,160C960,171,1056,245,1152,250.7C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg> -->
 
+    </header>
+
+    <main>
+        <section>
+            <div class="textos">
+                <!-- <img src="/images/2.png" alt="" width="100px" height="100px" id="logo"></img> -->
+                <h2 class="titulo">Quick Agenda</h2>
+                <h2 class="subtitulo">Planea, reserva y disfruta!!!</h2>
+            </div>
+            <!-- Botones de registro -->
+            <div class="buttons">
+                <a href="#" class="boton1">Login</a>
+                <!-- <br> -->
+                <a href="registro.html" class="boton2">Registrate</a>
+            </div>
+            <!-- Seccion de novedades y noticias -->
+            <div class="container3">
+                <div class="item" id="item1">
+                    <h1>NOTICIAS 1</h1>
+                    <p class="parrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, repudiandae expedita! Ab dolorem veritatis fugiat numquam, quibusdam dignissimos molestias aliquam fuga pariatur id quisquam beatae quae a odit culpa nisi.
+                        Voluptatem dicta quas, quod reiciendis voluptas amet? Eius laborum nisi accusantium harum pariatur provident necessitatibus earum vel maxime rem beatae itaque eveniet labore fuga tempora totam, laboriosam animi nam delectus.
+                        Aliquid nemo maiores similique eveniet dolorem earum! Accusantium, ad? Dolores, quia asperiores! Et, quae nulla? Sapiente, adipisci officia? Maxime voluptate nisi error blanditiis dicta perspiciatis, natus nam. Omnis, hic minima.</p>
+                </div>
+                <div class="item" id="item2">
+                    <h1>NOTICIAS 2</h1>
+                    <p class="parrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, repudiandae expedita! Ab dolorem veritatis fugiat numquam, quibusdam dignissimos molestias aliquam fuga pariatur id quisquam beatae quae a odit culpa nisi.
+                    Voluptatem dicta quas, quod reiciendis voluptas amet? Eius laborum nisi accusantium harum pariatur provident necessitatibus earum vel maxime rem beatae itaque eveniet labore fuga tempora totam, laboriosam animi nam delectus.
+                    Aliquid nemo maiores similique eveniet dolorem earum! Accusantium, ad? Dolores, quia asperiores! Et, quae nulla? Sapiente, adipisci officia? Maxime voluptate nisi error blanditiis dicta perspiciatis, natus nam. Omnis, hic minima.</p>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- Es el footer, correspondiente a los enlaces de las redes sociales y copyrights -->
-    <div align="center" class="footer">
-        <img src="/assets/fb.svg" alt="" width="30px" height="30px"></img>
-        <img src="/assets/instagram.svg" alt="" width="30px" height="30px"></img>
-        <img src="/assets/tw.svg" alt="" width="30px" height="30px"></img>
-        <img src="/assets/mail.svg" alt="" width="30px" height="30px"></img>
-        <p>Copyright 2021 | Quick Agenda | Todos los derechos reservados</p>
-    </div>
+    <footer>
+        <div align="center" class="footer">
+            <hr>
+            <br>
+            <img src="/assets/fb.svg" alt="" width="30px" height="30px"></img>
+            <img src="/assets/instagram.svg" alt="" width="30px" height="30px"></img>
+            <img src="/assets/tw.svg" alt="" width="30px" height="30px"></img>
+            <img src="/assets/mail.svg" alt="" width="30px" height="30px"></img>
+            <p>Copyright 2021 | Quick Agenda | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
     <span id="final"></span>
     <!-- <script src="main.js"></script> -->
 </body>
