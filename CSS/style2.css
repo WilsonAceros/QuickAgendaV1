@@ -171,6 +171,14 @@ header{
     color: white;
 }
 
+.form1{
+    margin: 50px 200px 50px 200px;
+    border: 1px solid #5bbdeb;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .nickname{
     margin-bottom: 10px;
     /* text-align: center; */
@@ -178,7 +186,7 @@ header{
 
 .nickname label{
     float: left;
-    margin-left: 525px;
+    margin-left: 325px;
 }
 
 #nickname-in{
@@ -199,13 +207,13 @@ header{
 
 .nombres label{
     float: left;
-    margin-left: 320px;
+    margin-left: 120px;
 }
 
 #nombre{
     width: 300px;
     height: 25px;
-    margin-left: 320px;
+    margin-left: 120px;
 }
 
 .apellidos{
@@ -235,13 +243,13 @@ header{
 
 .correos label{
     float: left;
-    margin-left: 320px;
+    margin-left: 120px;
 }
 
 #correo{
     width: 300px;
     height: 25px;
-    margin-left: 320px;
+    margin-left: 120px;
 }
 
 .contrasenas{
@@ -272,13 +280,13 @@ header{
 
 .telefonos label{
     float: left;
-    margin-left: 320px;
+    margin-left: 120px;
 }
 
 #telefono{
     width: 300px;
     height: 25px;
-    margin-left: 320px;
+    margin-left: 120px;
 }
 
 
@@ -309,13 +317,13 @@ header{
 
 .edades label{
     float: left;
-    margin-left: 520px;
+    margin-left: 270px;
 }
 
 #edad{
-    width: 100px;
+    width: 150px;
     height: 25px;
-    margin-left: 520px;
+    margin-left: 270px;
 }
 
 .fechas{
@@ -329,9 +337,9 @@ header{
 }
 
 #fecha{
-    width: 100px;
+    width: 150px;
     height: 25px;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 
 
@@ -342,7 +350,7 @@ header{
 
 .fotos label{
     float: left;
-    margin-left: 525px;
+    margin-left: 325px;
 }
 
 .enviar{

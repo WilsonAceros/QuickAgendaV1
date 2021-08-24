@@ -9,7 +9,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     /* background-color: #d3d3d3; */
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 header{
@@ -19,7 +19,7 @@ header{
     height: 400px;
 
     /* origen de la imagen */
-    background-image: url(/images/barberias.jpg);
+    background-image: url(../images/Mockup_iPhone.png);
 
     /* fijar la imagen, no se mueve con el scroll */
     background-attachment: fixed;
@@ -36,6 +36,11 @@ header{
     /* Si algo se sale oculte lo que esta salido */
     overflow: hidden;
 }
+
+main {
+    background-color: gray;
+}
+
 
 .textos{
     margin-top:10px;
@@ -60,6 +65,7 @@ header{
     float:left;
     margin: 20px;
 }
+
 
 .container2{
     height: 140px;
@@ -125,7 +131,7 @@ header{
 
 .buttons{
     margin: 10px 10px 50px 10px;
-    text-align: right;
+    text-align: center;
 }
 
 .boton1{
@@ -146,54 +152,80 @@ header{
     background-color:#5bbdeb;
 }
 
-.boton2{
-    padding: 10px;
-    text-decoration: none;
-    display: inline-block;
-    width: 120px;
-    color: white;
-    font-size: 20px;
-    border-radius: 15px;
-    text-align: center;
-    background-color:#f0975bc0;
-    transition: all 500ms ease;
-}
 
-.boton2:hover{
-    background-color:#5bbdeb;
-}
 
-/* Pagina Barberías */
+/* Pagina de servicios */
 
-.container5{
-    text-align: center;
+.contenedor1{
+    width: 90%;
+    max-width: 1000px;
     margin: auto;
+    overflow: hidden;
+    padding: 52px;
 }
 
-.tabla1{
+.sobre-nosotros{
     text-align: center;
-    /* Para centrar usamos "auto" en la alineación horizontal */
-    margin: 0 auto;
-		/*Lo siguiente es para los bordes*/
-    border-collapse: collapse;
+    font-size: 40px;
+    margin-bottom:15px;
+    font-weight: 600;
+    color: #5bbdeb;
 }
 
-.titulo-tabla{
-    font-size: 25px;
-    padding: 20px;
+.slogan{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom:25px;
+    color: white;
 }
 
-.tabla1 img{
-    margin: 10px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.664);
-
-}
-
-.tabla1 td{
-    padding: 20px;
+.parrafo{
+    margin-bottom:15px;
+    font-weight: 300;
     text-align: justify;
-
+    line-height: 20px;
+    color: white;
 }
+
+
+.galeria{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    /* background-color: blue; */
+    /* Se pueda mover  */
+    position: relative;
+
+    /* Organiza todas las imagenes en una sola imagen*/
+    flex-wrap: wrap;
+    /* padding-bottom: 0px; */
+}
+
+.imagenes{
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sesgoarriba{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 15vh 100vw 0 0;
+    border-style: solid;
+    border-color: gray transparent transparent transparent;
+}
+
 
 .footer{
     background-color: white;
