@@ -163,55 +163,186 @@ header{
     background-color:#5bbdeb;
 }
 
-.container3{
-    display: flex;
-}
-
-.item{
-    margin: 10px;
-    padding: 10px;
-    color: white;
-}
-
-#item1{
-    /* bordes */
-    border-color: #5bbdeb;
-    border-style: solid;
-
-    /* borde suave */
-    border-radius:  10px 104px 10px 10px;
-}
-
-#item2{
-    /* bordes */
-    border-color: #5bbdeb;
-    border-style: solid;
-
-    /* borde suave */
-    border-radius:  10px 104px 10px 10px;
-}
-
-.parrafo{
-    text-align: justify;
-}
 
 /* Registro html */
 .container4{
-    /* background-color: #f0975b; */
-    padding: 20px;
+    margin-top: 40px;
     text-align: center;
     color: white;
 }
 
-.form1{
-    padding: 20px;
-    float: center;
+.nickname{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.nickname label{
+    float: left;
+    margin-left: 525px;
+}
+
+#nickname-in{
+    width: 300px;
+    height: 25px;
+}
+
+.cont1{
+    display: flex;
 
 }
 
-.item3{
-    background-color: #5bbdeb;
-    margin-top: 1em;
+
+.nombres{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.nombres label{
+    float: left;
+    margin-left: 320px;
+}
+
+#nombre{
+    width: 300px;
+    height: 25px;
+    margin-left: 320px;
+}
+
+.apellidos{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.apellidos label{
+    float: left;
+    margin-left: 100px;
+}
+
+#apellido{
+    width: 300px;
+    height: 25px;
+    margin-left: 100px;
+}
+
+.cont2{
+    display: flex;
+
+}
+.correos{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.correos label{
+    float: left;
+    margin-left: 320px;
+}
+
+#correo{
+    width: 300px;
+    height: 25px;
+    margin-left: 320px;
+}
+
+.contrasenas{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.contrasenas label{
+    float: left;
+    margin-left: 100px;
+}
+
+#contrasena{
+    width: 300px;
+    height: 25px;
+    margin-left: 100px;
+}
+
+
+.cont3{
+    display: flex;
+}
+
+.telefonos{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.telefonos label{
+    float: left;
+    margin-left: 320px;
+}
+
+#telefono{
+    width: 300px;
+    height: 25px;
+    margin-left: 320px;
+}
+
+
+.direcciones{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.direcciones label{
+    float: left;
+    margin-left: 100px;
+}
+
+#direccion{
+    width: 300px;
+    height: 25px;
+    margin-left: 100px;
+}
+
+.cont4{
+    display: flex;
+}
+
+.edades{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.edades label{
+    float: left;
+    margin-left: 520px;
+}
+
+#edad{
+    width: 100px;
+    height: 25px;
+    margin-left: 520px;
+}
+
+.fechas{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.fechas label{
+    float: left;
+    margin-left: 100px;
+}
+
+#fecha{
+    width: 100px;
+    height: 25px;
+    margin-left: 30px;
+}
+
+
+.fotos{
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.fotos label{
+    float: left;
+    margin-left: 525px;
 }
 
 .enviar{

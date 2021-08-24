@@ -125,7 +125,7 @@ header{
 
 .buttons{
     margin: 10px 10px 50px 10px;
-    text-align: center;
+    text-align: right;
 }
 
 .boton1{
@@ -162,58 +162,6 @@ header{
 .boton2:hover{
     background-color:#5bbdeb;
 }
-
-.container3{
-    display: flex;
-}
-
-.item{
-    margin: 10px;
-    padding: 10px;
-    color: white;
-}
-
-#item1{
-    /* bordes */
-    border-color: #5bbdeb;
-    border-style: solid;
-
-    /* borde suave */
-    border-radius:  10px 104px 10px 10px;
-}
-
-#item2{
-    /* bordes */
-    border-color: #5bbdeb;
-    border-style: solid;
-
-    /* borde suave */
-    border-radius:  10px 104px 10px 10px;
-}
-
-.parrafo{
-    text-align: justify;
-}
-
-/* Registro html */
-.container4{
-    background-color: #f0975b;
-    padding: 1em;
-}
-
-.form1{
-    padding: 1em;
-    background-color:white;
-    float: center;
-
-}
-
-.item3{
-    background-color: #5bbdeb;
-    margin-top: 1em;
-}
-
-
 
 /* Pagina Barberías */
 

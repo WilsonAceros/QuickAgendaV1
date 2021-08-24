@@ -163,38 +163,92 @@ header{
     background-color:#5bbdeb;
 }
 
-.container3{
-    display: flex;
-    /* float: left; */
-    margin: 20px;
-}
 
-.item{
-    margin: 10px;
-    padding: 10px;
+/* LOGIN HTML */
+
+.form2{
+    padding: 20px;
+    text-align: center;
     color: white;
 }
 
-#item1{
-    /* bordes */
-    border-color: #5bbdeb;
-    border-style: solid;
-
-    /* borde suave */
-    border-radius:  10px 104px 10px 10px;
+.main_sesion{
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
-#item2{
-    /* bordes */
-    border-color: #5bbdeb;
-    border-style: solid;
-
-    /* borde suave */
-    border-radius:  10px 104px 10px 10px;
+.main_sesion h2{
+    color: #5bbdeb;
 }
 
-.parrafo{
-    text-align: justify;
+.name{
+    margin-bottom: 20px;
+}
+
+.name label{
+    float: left;
+    margin-left: 455px;
+}
+
+.pass label{
+    float: left;
+    margin-left: 455px;
+}
+
+
+#nombre{
+    width: 400px;
+    height: 30px;
+}
+
+#pass{
+    width: 400px;
+    height: 30px;
+}
+
+.recordarpass{
+    width: 400px;
+    height: 30px;
+    margin-left: 455px;
+    /* background-color: blue; */
+    /* text-align: center; */
+    /* display: flex; */
+}
+
+.check{
+    float: left;
+}
+
+.forgot-password{
+    float: right;
+}
+
+.forgot{
+    text-decoration: underline;
+}
+
+
+.botonInicio{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color:#f0975bc0;
+    transition: all 500ms ease;
+}
+
+.botonInicio:hover{
+    background-color:#5bbdeb;
+}
+
+.form-registro a{
+    color: white;
 }
 
 .footer{
