@@ -8,8 +8,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* background-color: #d3d3d3; */
-    background-color: gray;
+    background-color: #d3d3d3;
+    /* background-color: gray; */
 }
 
 header{
@@ -120,7 +120,7 @@ header{
     left: 0;
     border-width: 0 0 15vh 100vw;
     border-style: solid;
-    border-color: transparent transparent gray transparent;
+    border-color: transparent transparent #d3d3d3 transparent;
 }
 
 .buttons{

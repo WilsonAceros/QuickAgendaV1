@@ -8,8 +8,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* background-color: #d3d3d3; */
-    background-color: gray;
+    background-color: #d3d3d3;
+    /* background-color: gray; */
 }
 
 header{
@@ -120,12 +120,12 @@ header{
     left: 0;
     border-width: 0 0 15vh 100vw;
     border-style: solid;
-    border-color: transparent transparent gray transparent;
+    border-color: transparent transparent #d3d3d3 transparent;
 }
 
 .buttons{
     margin: 10px 10px 50px 10px;
-    text-align: center;
+    text-align: right;
 }
 
 .boton1{
@@ -168,12 +168,12 @@ header{
 .container4{
     margin-top: 40px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .form1{
     margin: 50px 200px 50px 200px;
-    border: 1px solid #5bbdeb;
+    border: 1px solid #b85635;
     border-radius: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
