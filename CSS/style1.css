@@ -19,7 +19,7 @@ header{
     height: 400px;
 
     /* origen de la imagen */
-    background-image: url(/images/barberias.jpg);
+    background-image: url(../images/barberias.jpg);
 
     /* fijar la imagen, no se mueve con el scroll */
     background-attachment: fixed;
@@ -176,6 +176,7 @@ header{
     margin: 0 auto;
 		/*Lo siguiente es para los bordes*/
     border-collapse: collapse;
+    /* border-color: #b85635; */
 }
 
 .titulo-tabla{
