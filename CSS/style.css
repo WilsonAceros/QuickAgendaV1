@@ -116,6 +116,12 @@ header{
     display: block;
 }
 
+#icono{
+    /* display: none; */
+    display: inline-block;
+    margin-left: 10px;
+}
+
 .sesgoabajo{
     z-index: 10;
     position: absolute;
@@ -134,6 +140,7 @@ header{
 .boton1{
     padding: 10px;
     margin-right: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
     display: inline-block;
     width: 120px;
@@ -229,6 +236,17 @@ aside{
     }
     aside{
         width: 100%;
+    }
+    .menu ul{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:1000px) and (min-width: 600px) {
+    div{
+        width: 100%;
+        margin-top: 0;
     }
 }
 
